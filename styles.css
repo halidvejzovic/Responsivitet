@@ -1,0 +1,23 @@
+
+
+body > div {
+    border: 2px solid black;
+    height: 3rem;
+    width: 6rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;display: flex;
+
+    background-color: brown;
+}
+
+body > div > div{
+    border: 2px solid black;
+    border-radius: 100px;
+    height: 3rem;
+    width: 3rem;
+
+    background-color: blue;
+}
+
