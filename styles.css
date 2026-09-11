@@ -17,47 +17,43 @@ body > div > div{
     border-radius: 100px;
     height: 6rem;
     width: 6rem;
-
     background-color: #F8BF00;
 }
 main > div{
     display: grid;
-    margin: 2rem;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: 150px 150px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "header section"
     "article footer";
 }
-
 header{
     grid-area: header;
     border: 2px solid black;
-    height: 150px;
-    width: 150px;
+   
     background-color: yellow;
 }
 
 section{
     grid-area: section;
     border: 2px solid black;
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
     background-color: rgb(116, 116, 89);
 }
 
 article{
     grid-area: article;
     border: 2px solid black;
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
     background-color: rgb(195, 195, 24);
 }
 
 footer{
     grid-area: footer;
     border: 2px solid black;
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
     background-color: yellow;
 }
